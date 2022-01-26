@@ -445,22 +445,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🧾 ᴍᴇᴍᴇs 🧾', callback_data='memes'),
             ],[
             InlineKeyboardButton('🔖 ᴘᴀsᴛᴇ 🔖', callback_data='paste'),
-            InlineKeyboardButton('📟 ᴘᴀssᴡᴏʀᴅ ɢᴇɴ 📟', callback_data='genpassword'),
+            InlineKeyboardButton('📟 ᴘᴀssᴡᴏʀᴅ 📟', callback_data='genpassword'),
             InlineKeyboardButton('📌 ᴘɪɴ 📌', callback_data='pin'),
             ],[
             InlineKeyboardButton('🎧 ᴘᴜʀɢᴇ 🎧', callback_data='purge'),
             InlineKeyboardButton('🎯 ʀᴇsᴛʀɪᴄ 🎯', callback_data='restric'),
             InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ 🔍', callback_data='search'),
             ],[
-            InlineKeyboardButton('⭕ sʜᴀʀᴇ ᴛᴇxᴛ ⭕', callback_data='sharetext'),
+            InlineKeyboardButton('⭕ sʜᴀʀᴇ ᴛx ⭕', callback_data='sharetext'),
             InlineKeyboardButton('🎶 ᴍᴜsɪᴄ 🎶', callback_data='music'),
             InlineKeyboardButton('🎵 ᴛᴛ-sᴘᴇᴇᴄʜ 🎵', callback_data='tts'),
             ],[
             InlineKeyboardButton('📋 ᴛɢʀᴀᴘʜ 📋', callback_data='tgraph'),
-            InlineKeyboardButton('🔸 ᴜʀʟ sʜᴏʀᴛɴᴇʀ 🔹', callback_data='shortner'),
+            InlineKeyboardButton('🔸 sʜᴏʀᴛɴᴇʀ 🔹', callback_data='shortner'),
             InlineKeyboardButton('🧟 ᴢᴏᴍʙɪᴇs 🧟', callback_data='zombies'),
             ],[
-            InlineKeyboardButton('✖️ ʙᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
