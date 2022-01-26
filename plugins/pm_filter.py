@@ -347,14 +347,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{files.file_name}"
         buttons = [
-            [
-                InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                InlineKeyboardButton('channel', url='https://t.me/JosProjects')
-            ],
-            [
-                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
-            ]
-            ]
+                [
+                    InlineKeyboardButton('⚡ᴊᴏɪɴ ɢʀᴏᴜᴘ⚡', url='https://t.me/MovieRosterGroup'),
+                    InlineKeyboardButton('💥ꜱʜᴀʀᴇ💥', url='https://t.me/share/url?url=https://t.me/MovieRosterGroup')
+                ],
+                [
+                    InlineKeyboardButton('🔖ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ🔖', url=f'https://t.me/MovieRosterOfficial')
+                ]
+                ]
             
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
@@ -399,14 +399,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{title}"
         buttons = [
-            [
-                InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                InlineKeyboardButton('channel', url='https://t.me/JosProjects')
-            ],
-            [
-                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
-            ]
-            ]
+                [
+                    InlineKeyboardButton('⚡ᴊᴏɪɴ ɢʀᴏᴜᴘ⚡', url='https://t.me/MovieRosterGroup'),
+                    InlineKeyboardButton('💥ꜱʜᴀʀᴇ💥', url='https://t.me/share/url?url=https://t.me/MovieRosterGroup')
+                ],
+                [
+                    InlineKeyboardButton('🔖ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ🔖', url=f'https://t.me/MovieRosterOfficial')
+                ]
+                ]
         await query.answer()
         await client.send_cached_media(
             chat_id=query.from_user.id,
@@ -445,19 +445,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🧾 ᴍᴇᴍᴇs 🧾', callback_data='memes'),
             ],[
             InlineKeyboardButton('🔖 ᴘᴀsᴛᴇ 🔖', callback_data='paste'),
-            InlineKeyboardButton('📟 ᴘᴀssᴡᴏʀᴅ 📟', callback_data='genpassword'),
+            InlineKeyboardButton('📟 ᴘᴀssᴡᴏʀᴅ📟', callback_data='genpassword'),
             InlineKeyboardButton('📌 ᴘɪɴ 📌', callback_data='pin'),
             ],[
             InlineKeyboardButton('🎧 ᴘᴜʀɢᴇ 🎧', callback_data='purge'),
             InlineKeyboardButton('🎯 ʀᴇsᴛʀɪᴄ 🎯', callback_data='restric'),
             InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ 🔍', callback_data='search'),
             ],[
-            InlineKeyboardButton('⭕ sʜᴀʀᴇ ᴛx ⭕', callback_data='sharetext'),
+            InlineKeyboardButton('⭕ sʜᴀʀᴇ ᴛx⭕', callback_data='sharetext'),
             InlineKeyboardButton('🎶 ᴍᴜsɪᴄ 🎶', callback_data='music'),
-            InlineKeyboardButton('🎵 ᴛᴛ-sᴘᴇᴇᴄʜ 🎵', callback_data='tts'),
+            InlineKeyboardButton('📲 ᴛᴛ-sᴘᴇᴇᴄʜ📳', callback_data='tts'),
             ],[
             InlineKeyboardButton('📋 ᴛɢʀᴀᴘʜ 📋', callback_data='tgraph'),
-            InlineKeyboardButton('🔸 sʜᴏʀᴛɴᴇʀ 🔹', callback_data='shortner'),
+            InlineKeyboardButton('🔸 sʜᴏʀᴛɴᴇʀ🔹', callback_data='shortner'),
             InlineKeyboardButton('🧟 ᴢᴏᴍʙɪᴇs 🧟', callback_data='zombies'),
             ],[
             InlineKeyboardButton('✖️ ʙᴀᴄᴋ ✖️', callback_data='start')
@@ -817,11 +817,11 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"{file.file_name}",
+                    text=f"🎬 {file.file_name}",
                     callback_data=f'files#{file.file_id}',
                 ),
                 InlineKeyboardButton(
-                    text=f"{get_size(file.file_size)}",
+                    text=f"📁 {get_size(file.file_size)}",
                     callback_data=f'files_#{file.file_id}',
                 ),
             ]
@@ -941,7 +941,7 @@ async def advantage_spell_chok(msg):
         hmm = InlineKeyboardMarkup(
         [
             [
-                 InlineKeyboardButton("🕵️‍♂️ Search On Google 🕵️‍♂️", url=f"https://google.com/search?q={search}")
+                 InlineKeyboardButton("🕵️ sᴇᴀʀᴄʜ ᴏɴ ɢᴏᴏɢʟᴇ 🕵️", url=f"https://google.com/search?q={search}")
             ]
         ]
     )
