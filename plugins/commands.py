@@ -27,15 +27,15 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('🕵‍♂ ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Rafeeq_Kunnimon'),
+            InlineKeyboardButton('🕵‍♂ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🕵‍♂', url='https://t.me/Rafeeq_Kunnimon'),
 
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ❤️', url='https://t.me/MovieRosterOfficial')
+            InlineKeyboardButton('❤️ sᴜᴘᴘᴏʀᴛ ❤️', url='https://t.me/MovieRosterOfficial')
 
             ],[
 
-            InlineKeyboardButton('📚 ʜᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton('📚 ʜᴇʟᴘ 📚', callback_data='help'),
 
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔰', callback_data='about')
+            InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ 🔰', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -56,15 +56,15 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('🕵‍♂ ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Rafeeq_Kunnimon'),
+            InlineKeyboardButton('🕵‍♂ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🕵‍♂', url='https://t.me/Rafeeq_Kunnimon'),
 
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ❤️', url='https://t.me/MovieRosterOfficial')
+            InlineKeyboardButton('❤️ sᴜᴘᴘᴏʀᴛ ❤️', url='https://t.me/MovieRosterOfficial')
 
             ],[
 
-            InlineKeyboardButton('📚 ʜᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton('📚 ʜᴇʟᴘ 📚', callback_data='help'),
 
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔰', callback_data='about')
+            InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ 🔰', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -112,15 +112,15 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('🕵‍♂ ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Rafeeq_Kunnimon'),
+            InlineKeyboardButton('🕵‍♂ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🕵‍♂', url='https://t.me/Rafeeq_Kunnimon'),
 
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ❤️', url='https://t.me/MovieRosterOfficial')
+            InlineKeyboardButton('❤️ sᴜᴘᴘᴏʀᴛ ❤️', url='https://t.me/MovieRosterOfficial')
 
             ],[
 
-            InlineKeyboardButton('📚 ʜᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton('📚 ʜᴇʟᴘ 📚', callback_data='help'),
 
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔰', callback_data='about')
+            InlineKeyboardButton('🔰 ᴀʙᴏᴜᴛ 🔰', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
