@@ -129,13 +129,12 @@ async def advantage_spoll_choker(bot, query):
         return await query.answer("വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി Search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", show_alert=True)
     if movie_  == "close_spellcheck":
         return await query.message.delete()
-    movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
-    if not movies:
-        return await query.answer("വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി Search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", 
     movie = movies[(int(movie_))]
-    await query.answer('Checking for Movie in database...')
+    await query.answer('𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 𝐟𝐨𝐫 𝐌𝐨𝐯𝐢𝐞 𝐢𝐧 𝐝𝐚𝐭𝐚𝐛𝐚𝐬𝐞...')
     k = await manual_filters(bot, query.message, text=movie)
-    if k == False:
+    if k==False:
+        files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
+        if files:
         files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
         if files:
             k = (movie, files, offset, total_results)
