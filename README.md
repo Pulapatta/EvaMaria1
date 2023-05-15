@@ -132,3 +132,24 @@ python3 bot.py
 [![GNU Affero General Public License 3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
 Licensed under [GNU AGPL 3.0.](https://github.com/ZauteKm/Dingdi/blob/master/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
+                                                                                                       
+                                                                                                               ### Deploy to
+
+<details><summary>Deploy To Rander</summary>
+
+<br>
+
+<p><a href="https://youtu.be/hDGgPNgjo9o">
+
+    Watch Deploying Tutorial...
+
+</a></p>
+
+<p><a href="https://render.com/deploy?repo=https://github.com/Pulapatta/FilterBot">
+
+  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy">
+
+</a></p>
+
+</details>
+                                                                                                               
