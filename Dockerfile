@@ -10,9 +10,9 @@ RUN cd /
 
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 
-RUN mkdir /EvaMaria1
+RUN mkdir /tgmoviebot
 
-WORKDIR /EvaMaria1
+WORKDIR /tgmoviebot
 
 COPY start.sh /start.sh
 
